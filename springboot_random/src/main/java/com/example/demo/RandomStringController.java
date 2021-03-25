@@ -13,7 +13,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class RandomStringController {
 
 	@Autowired
-//	RandomStringGenerator gen;
+	RandomStringGenerator gen;
 	
 	@RequestMapping("/")
 	public String index() {
